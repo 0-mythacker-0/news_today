@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&family=Montserrat:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1em;
+}
+
+.title {
+  margin: 12px auto;
+  text-align: center;
+}
+
+.title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+
+  font-feature-settings: "salt" on;
+
+  color: #425c84;
+}
+
+.news_container {
+  display: flex;
+  max-width: 1100px;
+  margin: 2em auto;
+}
+
+.news {
+  margin: 0 auto;
+  background: #e8e8ec;
+  border-radius: 16px;
+  width: 750px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 150px;
+  position: relative;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 120px;
+}
+
+.img_container {
+  position: absolute;
+  left: 2rem;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.info_container {
+  position: absolute;
+  left: 11rem;
+  bottom: 50%;
+  transform: translateY(50%);
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.info_container .headline {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info_container .button {
+  padding: 12px;
+  background: #5dd285;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin-top: 1em;
+}
